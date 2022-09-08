@@ -1,0 +1,81 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+
+body{
+    background-color: rgb(224, 16, 34);
+}
+
+
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    border: 2px solid white;
+    height: 40vh;
+    margin: auto;
+    width:90vw;
+    border-radius: 10px;
+    margin-top: 50px;
+    box-shadow: 4px 5px 5px 1px rgb(59, 59, 59);
+    padding: 10px;
+
+}
+
+nav{
+    border:2px solid white;
+    width:70vw;
+   
+    height: 10vh;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 4px 5px 5px 1px rgb(59, 59, 59);
+}
+
+/* styles for the quote container */
+.quotes{
+    font-size: 18px;
+    height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+  
+}
+/* styles for the quote owner */
+.person{
+    font-size: 20px;
+    font-style: italic;
+    height: 46px;
+    width:400px;
+    margin:auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* button styles */
+button{
+    width: 200px;
+    height: 46px;
+    border: none;
+    cursor: pointer;
+    background: black;
+    border-radius: 5px;
+    color: white;
+    transition: background 2s;
+    margin:auto;
+    
+
+}
+
+button:hover{
+    background: blueviolet;
+}
